@@ -1,45 +1,70 @@
-# 📈 FinSight-AI
+# FinSight-AI Platform
 
-**An AI-powered financial analytics platform with prediction and risk metrics**
+## 📈 Overview
 
-FinSight-AI is a full-stack project that simulates a real-world financial analytics system. It ingests historical market data, stores it in a PostgreSQL database, computes forecasts using a return-based ML model, calculates risk metrics, and provides an interactive dashboard for visual analysis.
+**FinSight-AI** is an **AI-powered financial analytics platform** that simulates real-world fintech systems.  
+It demonstrates a complete **data engineering → machine learning → backend → frontend** pipeline by:
 
----
+✔ Ingesting and storing historical market data  
+✔ Forecasting stock prices with an ML model  
+✔ Computing key risk metrics  
+✔ Presenting interactive visual analytics
 
-## 💡 Overview
-
-FinSight-AI demonstrates a complete **data engineering + backend + machine learning + frontend** pipeline.  
-It shows how financial data can be:
-
-✔ Automatically ingested  
-✔ Persisted efficiently  
-✔ Analyzed for forecasting  
-✔ Evaluated for risk  
-✔ Presented to users interactively
-
-This is the type of architecture used in fintech applications, investment analytics tools, and financial dashboards.
+This project showcases full-stack capabilities with **Python, ML models, REST API design, database integration, and UI dashboards**—skills highly relevant for data-focused and engineering roles.
 
 ---
 
-## 🧠 Core Features
+## 🔍 Key Features
 
-### 🔹 Smart Data Ingestion
-- Auto-detects if data exists
-- Fetches from Stooq API
-- Stores in PostgreSQL
+### 📊 Data Engineering
+- Automatically fetches historical market data  
+- Persists data efficiently in a **PostgreSQL** database  
 
-### 📊 Forecasting
-- Models future prices based on historical returns
-- Uses a simple yet effective forecasting engine
-- Outputs interactive, interactive visual charts
+### 🤖 Forecasting & Analytics
+- Uses a **machine learning model** to forecast future price movements  
+- Computes financial risk metrics such as:
+  - **Volatility**
+  - **Maximum Drawdown**
+  - **Sharpe Ratio**
 
-### ⚠️ Risk Metrics
-Computes:
-- **Volatility**
-- **Max Drawdown**
-- **Sharpe Ratio**
-
-These metrics help measure financial risk for a given stock.
+### 📟 Frontend Dashboard
+- Interactive dashboard for visual analysis
+- Fast insights into stock trends and risk profiles
 
 ---
 
+## 🛠 Tech Stack
+
+| Layer | Tools / Frameworks |
+|-------|---------------------|
+| Backend | Python, Flask / FastAPI (if used) |
+| Database | PostgreSQL |
+| Data Ingestion | Stooq API (or similar) |
+| Machine Learning | Scikit-Learn / Custom modeling |
+| Frontend | Streamlit / UI framework (based on project files) |
+| DevOps | Docker |
+
+📌 *100% Python-based codebase for maximum portability and scalability.* :contentReference[oaicite:0]{index=0}
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Anusha3997/finsight-ai-platform.git
+cd finsight-ai-platform
+
+## 🚀 Run Locally
+
+This project can be run locally for development or testing.
+
+```bash
+git clone https://github.com/Anusha3997/finsight-ai-platform
+cd finsight-ai-platform
+pip install -r requirements.txt
+python app/main.py
+
+The frontend dashboard can be launched with:
+streamlit run ui/app.py
