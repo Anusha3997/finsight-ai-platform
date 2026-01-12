@@ -21,10 +21,10 @@ This simulates how financial analytics platforms are built in investment, tradin
 
 ## Application Preview
 
-![Dashboard](screenshots/Architecture.png)
-![Dashboard](screenshots/Dashboard.png)  
-![Forecast](screenshots/Forecast.png)  
-![Risk Metrics](screenshots/Risk_Metrics.png)
+<img src="screenshots/Architecture.png" width="600"/>
+<img src="screenshots/Dashboard.png" width="600"/>
+<img src="screenshots/Forecast.png" width="600"/>
+<img src="screenshots/Risk_Metrics.png" width="600"/>
 
 ---
 
