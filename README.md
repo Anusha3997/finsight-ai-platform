@@ -21,6 +21,7 @@ This simulates how financial analytics platforms are built in investment, tradin
 
 ## Application Preview
 
+![Dashboard](screenshots/Architecture.png)
 ![Dashboard](screenshots/Dashboard.png)  
 ![Forecast](screenshots/Forecast.png)  
 ![Risk Metrics](screenshots/Risk.png)
@@ -52,7 +53,6 @@ This simulates how financial analytics platforms are built in investment, tradin
 
 ## Run Locally
 
-```bash
 git clone https://github.com/Anusha3997/finsight-ai-platform
 cd finsight-ai-platform
 pip install -r requirements.txt
@@ -74,7 +74,7 @@ finsight-ai-platform/
 
 ---
 
-**## Future Improvements**
+## Future Improvements
 Live market data integration
 Online deployment
 Portfolio analysis features
