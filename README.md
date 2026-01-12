@@ -69,6 +69,3 @@ cd finsight-ai-platform
 pip install -r requirements.txt
 python app/main.py
 streamlit run ui/app.py
-
-
-
