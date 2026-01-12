@@ -1,70 +1,81 @@
 # FinSight-AI Platform
 
-## 📈 Overview
+FinSight-AI is an AI-powered financial analytics platform that uses historical stock market data to generate forecasts, calculate risk metrics, and visualize insights through an interactive dashboard.
 
-**FinSight-AI** is an **AI-powered financial analytics platform** that simulates real-world fintech systems.  
-It demonstrates a complete **data engineering → machine learning → backend → frontend** pipeline by:
-
-✔ Ingesting and storing historical market data  
-✔ Forecasting stock prices with an ML model  
-✔ Computing key risk metrics  
-✔ Presenting interactive visual analytics
-
-This project showcases full-stack capabilities with **Python, ML models, REST API design, database integration, and UI dashboards**—skills highly relevant for data-focused and engineering roles.
+This project demonstrates how real-world fintech systems combine data engineering, machine learning, and backend services into a single production-style application.
 
 ---
 
-## 🔍 Key Features
+## What This Project Does
 
-### 📊 Data Engineering
-- Automatically fetches historical market data  
-- Persists data efficiently in a **PostgreSQL** database  
+FinSight-AI allows users to:
 
-### 🤖 Forecasting & Analytics
-- Uses a **machine learning model** to forecast future price movements  
-- Computes financial risk metrics such as:
-  - **Volatility**
-  - **Maximum Drawdown**
-  - **Sharpe Ratio**
+- Load historical stock market data  
+- Predict future prices using machine learning  
+- Calculate financial risk metrics  
+- Visualize trends and forecasts in a dashboard  
 
-### 📟 Frontend Dashboard
-- Interactive dashboard for visual analysis
-- Fast insights into stock trends and risk profiles
+This simulates how financial analytics platforms are built in investment, trading, and fintech companies.
 
 ---
 
-## 🛠 Tech Stack
+## Application Preview
 
-| Layer | Tools / Frameworks |
-|-------|---------------------|
-| Backend | Python, Flask / FastAPI (if used) |
-| Database | PostgreSQL |
-| Data Ingestion | Stooq API (or similar) |
-| Machine Learning | Scikit-Learn / Custom modeling |
-| Frontend | Streamlit / UI framework (based on project files) |
-| DevOps | Docker |
-
-📌 *100% Python-based codebase for maximum portability and scalability.* :contentReference[oaicite:0]{index=0}
+![Dashboard](screenshots/Dashboard.png)  
+![Forecast](screenshots/Forecast.png)  
+![Risk Metrics](screenshots/Risk.png)
 
 ---
 
-## 🚀 Installation & Setup
+## Key Features
 
-### 1️⃣ Clone the Repository
+- Historical stock data ingestion  
+- Machine learning-based forecasting  
+- Risk metrics (volatility, drawdown, performance)  
+- Backend data processing  
+- Interactive visualization dashboard  
 
-```bash
-git clone https://github.com/Anusha3997/finsight-ai-platform.git
-cd finsight-ai-platform
+---
 
-## 🚀 Run Locally
+## Technology Stack
 
-This project can be run locally for development or testing.
+| Layer | Tools |
+|------|-------|
+| Programming | Python |
+| Machine Learning | scikit-learn, pandas |
+| Backend | Python API |
+| Frontend | Streamlit |
+| Data | CSV / PostgreSQL |
+| Visualization | Plotly, charts |
+
+---
+
+## Run Locally
 
 ```bash
 git clone https://github.com/Anusha3997/finsight-ai-platform
 cd finsight-ai-platform
 pip install -r requirements.txt
 python app/main.py
-
-The frontend dashboard can be launched with:
 streamlit run ui/app.py
+
+---
+
+**## Project Structure**
+
+finsight-ai-platform/
+├── app/          # Backend services
+├── ml/           # Machine learning models
+├── ui/           # Streamlit dashboard
+├── tests/        # Tests
+├── screenshots/  # Application images
+├── requirements.txt
+└── README.md
+
+---
+
+**## Future Improvements**
+Live market data integration
+Online deployment
+Portfolio analysis features
+Advanced forecasting models
