@@ -53,10 +53,10 @@ This simulates how financial analytics platforms are built in investment, tradin
 ---
 
 ## Future Improvements
-Live market data integration
-Online deployment
-Portfolio analysis features
-Advanced forecasting models
+- Live market data integration
+- Online deployment
+- Portfolio analysis features
+- Advanced forecasting models
 
 ---
 
