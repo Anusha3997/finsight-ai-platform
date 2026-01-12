@@ -49,28 +49,6 @@ This simulates how financial analytics platforms are built in investment, tradin
 | Data | CSV / PostgreSQL |
 | Visualization | Plotly, charts |
 
----
-
-## Run Locally
-
-git clone https://github.com/Anusha3997/finsight-ai-platform
-cd finsight-ai-platform
-pip install -r requirements.txt
-python app/main.py
-streamlit run ui/app.py
-
----
-
-## Project Structure
-
-finsight-ai-platform/
-├── app/          # Backend services
-├── ml/           # Machine learning models
-├── ui/           # Streamlit dashboard
-├── tests/        # Tests
-├── screenshots/  # Application images
-├── requirements.txt
-└── README.md
 
 ---
 
@@ -79,3 +57,18 @@ Live market data integration
 Online deployment
 Portfolio analysis features
 Advanced forecasting models
+
+---
+
+
+## Run Locally
+
+```bash
+git clone https://github.com/Anusha3997/finsight-ai-platform
+cd finsight-ai-platform
+pip install -r requirements.txt
+python app/main.py
+streamlit run ui/app.py
+
+
+
