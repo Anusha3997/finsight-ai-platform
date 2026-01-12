@@ -61,7 +61,7 @@ streamlit run ui/app.py
 
 ---
 
-**## Project Structure**
+## Project Structure
 
 finsight-ai-platform/
 ├── app/          # Backend services
