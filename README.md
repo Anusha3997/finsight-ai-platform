@@ -1,71 +1,97 @@
-# FinSight-AI Platform
+# 📊 FinSight – Financial Analytics Platform
 
-FinSight-AI is an AI-powered financial analytics platform that uses historical stock market data to generate forecasts, calculate risk metrics, and visualize insights through an interactive dashboard.
+## Overview
+**FinSight** is an end-to-end financial analytics platform designed to ingest, process, and serve historical market data through reliable backend services and analytics-ready data models. The project focuses on building clean data pipelines, well-structured APIs, and a scalable foundation for financial insights and future ML-driven analysis.
 
-This project demonstrates how real-world fintech systems combine data engineering, machine learning, and backend services into a single production-style application.
-
----
-
-## What This Project Does
-
-FinSight-AI allows users to:
-
-- Load historical stock market data  
-- Predict future prices using machine learning  
-- Calculate financial risk metrics  
-- Visualize trends and forecasts in a dashboard  
-
-This simulates how financial analytics platforms are built in investment, trading, and fintech companies.
+The goal of FinSight is to demonstrate how real-world data systems are designed — from raw data ingestion to structured storage and API-based access.
 
 ---
 
-## Application Preview
+## Problem Statement
+Financial data is often fragmented, noisy, and difficult to analyze directly. Analysts and applications need clean, consistent, and queryable datasets exposed through reliable interfaces.
 
-<img src="screenshots/Architecture.png" width="600"/>
-<img src="screenshots/Dashboard.png" width="600"/>
-<img src="screenshots/Forecast.png" width="600"/>
-<img src="screenshots/Risk_Metrics.png" width="600"/>
-
----
-
-## Key Features
-
-- Historical stock data ingestion  
-- Machine learning-based forecasting  
-- Risk metrics (volatility, drawdown, performance)  
-- Backend data processing  
-- Interactive visualization dashboard  
+FinSight addresses this by:
+- Automating data ingestion and transformation
+- Structuring financial data for analytics and downstream use
+- Providing API-based access to processed data
 
 ---
 
-## Technology Stack
+## Solution Architecture
+![FinSight Architecture](architecture.png) 
 
-| Layer | Tools |
-|------|-------|
-| Programming | Python |
-| Machine Learning | scikit-learn, pandas |
-| Backend | Python API |
-| Frontend | Streamlit |
-| Data | CSV / PostgreSQL |
-| Visualization | Plotly, charts |
-
+This design separates concerns clearly:
+- **Data layer** handles ingestion and transformation
+- **Service layer** exposes data through REST APIs
+- **Storage layer** ensures consistency and reliability
 
 ---
 
-## Future Improvements
-- Live market data integration
-- Online deployment
-- Portfolio analysis features
-- Advanced forecasting models
+## Core Features
+- Ingestion and preprocessing of historical financial data  
+- Data cleaning, transformation, and validation using Python  
+- Relational data modeling using SQL  
+- RESTful APIs built with FastAPI for data access  
+- Modular and extensible backend design  
+- Cloud-ready architecture for future scaling  
 
 ---
 
+## Tech Stack
 
-## Run Locally
+### Languages & Frameworks
+- Python
+- SQL
+- FastAPI
+
+### Data & Storage
+- PostgreSQL
+- pandas
+- NumPy
+
+### Cloud & DevOps
+- AWS (S3, EC2, IAM)
+- Docker
+- Jenkins
+- GitHub
+
+---
+
+## What This Project Demonstrates
+This project showcases my ability to:
+- Design and implement **data pipelines** for structured analytics  
+- Build **backend services** that expose data through clean APIs  
+- Apply **data modeling and SQL** for consistency and performance  
+- Think in terms of **end-to-end systems**, not isolated scripts  
+- Write maintainable, modular, and extensible code  
+
+---
+
+## Current Status
+FinSight is actively evolving. Planned enhancements include:
+- Advanced analytics and feature engineering  
+- Model integration for financial forecasting  
+- Improved monitoring and logging  
+- Expanded API capabilities  
+
+---
+
+## Getting Started (Local Setup)
 
 ```bash
-git clone https://github.com/Anusha3997/finsight-ai-platform
+# Clone the repository
+git clone https://github.com/Anusha3997/finsight-ai-platform.git
+
+# Navigate to the project directory
 cd finsight-ai-platform
+
+# Install dependencies
 pip install -r requirements.txt
-python app/main.py
-streamlit run ui/app.py
+
+# Start the FastAPI server
+uvicorn app.main:app --reload
+
+## Author
+- Anusha Nagula
+- MS in Information Systems, University of Colorado Denver
+- [GitHub](https://github.com/Anusha3997)
