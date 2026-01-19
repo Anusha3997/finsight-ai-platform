@@ -18,7 +18,7 @@ FinSight addresses this by:
 ---
 
 ## Solution Architecture
-<img src="architecture.png" alt="FinSight Architecture" width="400" height = "700"/>
+<img src="architecture.png" alt="FinSight Architecture" width="300" height = "600"/>
 
 This design separates concerns clearly:
 - **Data layer** handles ingestion and transformation
