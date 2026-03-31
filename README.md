@@ -1,19 +1,14 @@
 # 📊 FinSight – Financial Analytics Platform
 
 ## Overview
-**FinSight** is an end-to-end financial analytics platform designed to ingest, process, and serve historical market data through reliable backend services and analytics-ready data models. The project focuses on building clean data pipelines, well-structured APIs, and a scalable foundation for financial insights and future ML-driven analysis.
-
-The goal of FinSight is to demonstrate how real-world data systems are designed — from raw data ingestion to structured storage and API-based access.
+An end-to-end financial analytics platform from raw market data ingestion to structured storage, REST API access, and an interactive analytics dashboard.
+FinSight is designed to demonstrate how production-grade data systems are built in the real world: clean ingestion pipelines, well-modeled PostgreSQL schemas, FastAPI-powered backend services, and a Streamlit dashboard all containerized with Docker Compose for repeatable, environment-independent deployment.
 
 ---
 
 ## Problem Statement
-Financial data is often fragmented, noisy, and difficult to analyze directly. Analysts and applications need clean, consistent, and queryable datasets exposed through reliable interfaces.
-
-FinSight addresses this by:
-- Automating data ingestion and transformation
-- Structuring financial data for analytics and downstream use
-- Providing API-based access to processed data
+FinSight ingests historical stock market data, processes and stores it in a structured PostgreSQL database, exposes it through a typed REST API, and visualizes trends, forecasts, and risk metrics through an interactive dashboard.
+It simulates the architecture of financial analytics platforms used in investment, trading, and fintech where data reliability, clean modeling, and API-first design are non-negotiable.
 
 ---
 
